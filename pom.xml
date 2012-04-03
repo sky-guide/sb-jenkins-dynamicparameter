@@ -11,26 +11,30 @@
   <groupId>com.seitenbau.jenkins.plugins</groupId>
   <artifactId>dynamicparameter</artifactId>
   <packaging>hpi</packaging>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 
   <name>Jenkins Dynamic Parameter Plug-in</name>
   <description>
     This plugin allows build parameters with dynamically generated default values.
   </description>
-  
+
   <licenses>
     <license>
       <name>Apache License</name>
       <comments>All source code is under the Apache License.</comments>
     </license>
   </licenses>
-  
+
   <url>http://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Dynamic+Parameter+Plug-in</url>
 
   <developers>
     <developer>
       <id>dimitarp</id>
       <name>Dimitar Popov</name>
+    </developer>
+    <developer>
+      <id>baranowski</id>
+      <name>Christian Baranowski</name>
     </developer>
   </developers>
 
@@ -46,7 +50,7 @@
       <url>http://maven.jenkins-ci.org/content/groups/artifacts</url>
     </pluginRepository>
   </pluginRepositories>
-  
+
   <build>
     <plugins>
       <plugin>
@@ -80,7 +84,7 @@
           </additionalConfig>
         </configuration>
       </plugin>
-      
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -90,7 +94,7 @@
           <target>1.6</target>
         </configuration>
       </plugin>
-      
+
     </plugins>
   </build>
 
@@ -125,5 +129,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
+
 </project>
