@@ -24,6 +24,15 @@
       <comments>All source code is under the Apache License.</comments>
     </license>
   </licenses>
+  
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Dynamic+Parameter+Plug-in</url>
+
+  <developers>
+    <developer>
+      <id>dimitarp</id>
+      <name>Dimitar Popov</name>
+    </developer>
+  </developers>
 
   <repositories>
     <repository>
