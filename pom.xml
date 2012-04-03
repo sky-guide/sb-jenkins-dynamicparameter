@@ -24,8 +24,14 @@
       <comments>All source code is under the Apache License.</comments>
     </license>
   </licenses>
+  
+  <scm>
+    <connection>scm:git:ssh://github.com/Seitenbau/sb-jenkins-dynamicparameter.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:Seitenbau/sb-jenkins-dynamicparameter.git</developerConnection>
+    <url>https://dimitarp@github.com/Seitenbau/sb-jenkins-dynamicparameter.git</url>
+  </scm>
 
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Dynamic+Parameter+Plug-in</url>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Dynamic+Parameter+Plug-in</url>
 
   <developers>
     <developer>
